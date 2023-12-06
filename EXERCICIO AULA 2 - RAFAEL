@@ -1,0 +1,22 @@
+1. Iniciar o aplicativo de cálculo de IMC e histórico.
+
+2. Solicitar o nome e outras informações pessoais de Rafael para identificação.
+
+3. Para o cálculo do IMC:
+   a. Solicitar o peso atual de Rafael em quilogramas.
+   b. Solicitar a altura de Rafael em metros.
+   c. Calcular o IMC usando a fórmula IMC = peso / (altura * altura).
+
+4. Apresentar o valor do IMC calculado.
+
+5. Classificar o IMC de acordo com a tabela de classificação (por exemplo, abaixo do peso, peso normal, sobrepeso, etc.) e exibir essa classificação.
+
+6. Adicionar o IMC calculado e a classificação ao histórico mensal de Rafael.
+
+7. Apresentar o histórico mensal de IMC de Rafael até o momento.
+
+8. Perguntar se Rafael deseja calcular o IMC novamente no próximo mês. Se sim, retornar ao passo 3; caso contrário, encerrar o aplicativo.
+
+9. Rafael pode acessar o histórico a qualquer momento para visualizar seu progresso.
+
+10. Fim do algoritmo.
