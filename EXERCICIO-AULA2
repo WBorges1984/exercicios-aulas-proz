@@ -1,0 +1,21 @@
+ALGORITMO DE CUSTOS "CARMEM"
+
+1. Iniciar o aplicativo de controle de gastos.
+
+2. Solicitar o tipo de pagamento (dinheiro, cartão de débito ou cartão de crédito) para cada compra.
+
+3. Para cada compra:
+   a. Solicitar o valor da compra.
+   b. Se o pagamento foi feito em dinheiro, adicionar o valor aos gastos totais em dinheiro.
+   c. Se o pagamento foi feito com cartão de débito, adicionar o valor aos gastos totais no cartão de débito.
+   d. Se o pagamento foi feito com cartão de crédito, adicionar o valor aos gastos totais no cartão de crédito.
+
+4. Apresentar os gastos totais separados por tipo de pagamento (dinheiro, cartão de débito e cartão de crédito).
+
+5. Calcular o gasto total do mês somando os gastos em dinheiro, cartão de débito e cartão de crédito.
+
+6. Apresentar o gasto total do mês.
+
+7. Perguntar se Carmem deseja continuar registrando mais compras. Se sim, retornar ao passo 2; caso contrário, encerrar o aplicativo.
+
+8. Fim do algoritmo.
