@@ -1,0 +1,36 @@
+Algoritmo "Avaliacao de restaurante"
+
+Var
+// Seção de Declarações das variáveis 
+nome: caractere
+comentario: caractere
+localizacao: caractere
+atendimento, qualidade_comida, ambiente, preco: real
+media_ponderada: real
+
+Inicio
+escreval("Nome do restaurante ")
+leia(nome)
+
+escreval("Escreva um comentario ")
+leia(comentario)
+
+escreval("Qual a localização ")
+leia(localizacao)
+
+escreval("De 0 a 10 qual a pontuacao do atendimento? ")
+leia(atendimento)
+escreval("De 0 a 10 qual a pontuacao da qualidade da comida? ")
+leia(qualidade_comida)
+
+escreval("De 0 a 10 qual a pontuacao do ambiente? ")
+leia(ambiente)
+
+escreval("De 0 a 10 qual a pontuacao do preco? ")
+leia(preco)
+
+ media_ponderada <- (atendimento + qualidade_comida + ambiente + preco ) / 4
+ 
+ escreval("A avaliacao final do restaurante e: ", media_ponderada)
+
+Fimalgoritmo
